@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        button {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .uber-button {
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 110px;
+            border: none;
+            transition: opacity 0.4s;
+        }
+
+        .uber-button:hover {
+            opacity: 0.7;
+        }
+
+        .amazon-button {
+            background-color: rgb(255, 230, 0);
+            color: black;
+            height: 40px;
+            width: 200px;
+            border: none;
+            border-radius: 100px;
+            transition: background-color 0.4s;
+        }
+
+        .amazon-button:hover {
+            background-color: rgb(228, 207, 22);
+        }
+
+        .github-button {
+            background-color: rgb(72, 190, 72);
+            color: white;
+            height: 40px;
+            width: 90px;
+            border:none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: box-shadow 0.15s;
+        }
+
+        .github-button:hover {
+            box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <button class="uber-button">
+        Request now
+    </button>
+    <button class="amazon-button">
+        Add to cart
+    </button>
+    <button class="github-button">
+        Sign up
+    </button>
+</body>
+</html>
